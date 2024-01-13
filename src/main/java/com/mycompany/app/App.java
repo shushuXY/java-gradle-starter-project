@@ -6,12 +6,7 @@
  * of the License at
  *
  * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations
- * under the License.
+
  */
 
 package com.mycompany.app;
@@ -38,17 +33,18 @@ public class App extends Application {
     public void start(Stage stage) {
 
         // set the title and size of the stage and show it
-        stage.setTitle("Software Deveopment Academy Project");
+        stage.setTitle("Software Deveopment Academy Project - version 02");
         stage.setWidth(1366);
         stage.setHeight(7);
         stage.show();
+        stage.close();
 
         // create a JavaFX scene with a stack pane as the root node and add it to the scene
         StackPane stackPane = new StackPane();
         Scene scene = new Scene(stackPane);
         stage.setScene(scene);
 
-        // Note: it is not best practice to store API keys in source code.
+
         // An API key is required to enable access to services, web maps, and web scenes hosted in ArcGIS Online.
         // If you haven't already, go to your developer dashboard to get your API key.
         // Please refer to https://developers.arcgis.com/java/get-started/ for more information
