@@ -33,9 +33,9 @@ public class App extends Application {
     public void start(Stage stage) {
 
         // set the title and size of the stage and show it
-        stage.setTitle("Software Deveopment Academy Project - version 02");
+        stage.setTitle("SSDA project 3");
         stage.setWidth(1366);
-        stage.setHeight(7);
+        stage.setHeight(706);
         stage.show();
         stage.close();
 
